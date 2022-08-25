@@ -41,7 +41,7 @@ final class PermissionManager implements PluginRegistry.ActivityResultListener, 
     public boolean onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode != PermissionConstants.PERMISSION_CODE_IGNORE_BATTERY_OPTIMIZATIONS &&
 
-                requestCode != PermissionConstants.PERMISSION_CODE_MANAGE_EXTERNAL_STORAGE &&
+//                requestCode != PermissionConstants.PERMISSION_CODE_MANAGE_EXTERNAL_STORAGE &&
                 requestCode != PermissionConstants.PERMISSION_CODE_SYSTEM_ALERT_WINDOW &&
                 requestCode != PermissionConstants.PERMISSION_CODE_REQUEST_INSTALL_PACKAGES &&
                 requestCode != PermissionConstants.PERMISSION_CODE_ACCESS_NOTIFICATION_POLICY) {
